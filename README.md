@@ -10,7 +10,7 @@ CPU: Intel® Core™ i7-9900K Processor \
 WiFi/蓝牙: BCM943602CS \
 声卡: Realtek® ALC 887 8-Channel High Definition Audio \
 固态硬盘: Samsung SSD 970 EVO Plus 500GB \
-
+ \
 可适用操作系统版本：macOS Catalina 10.15.1～10.15.4 beta1\
 opencore版本：0.55\
 clover版本：5103\
