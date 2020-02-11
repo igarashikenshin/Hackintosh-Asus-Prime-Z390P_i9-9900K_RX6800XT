@@ -6,7 +6,7 @@ BIOS版本：2606\
 CPU: Intel® Core™ i9-9900K Processor \
 核显: Intel® UHD Graphics 630 \
 独显: SAPPHIRE PULSE Radeon RX 580 8GB GDDR5 \
-板载网卡: Realtek R8111H 1 x Gigabit LAN Controller \
+板载网卡: Realtek® RTL8111H Gigabit LAN Controller  \
 WiFi/蓝牙: BCM943602CS \
 声卡: Realtek® ALC 887 8-Channel High Definition Audio \
 固态硬盘: Samsung SSD 970 EVO Plus 500GB \
