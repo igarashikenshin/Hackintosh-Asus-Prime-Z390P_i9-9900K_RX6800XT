@@ -3,7 +3,7 @@
 配置 \
 主板: ASUS PRIME Z390-P \
 BIOS版本：2606\
-CPU: Intel® Core™ i7-9900K Processor \
+CPU: Intel® Core™ i9-9900K Processor \
 核显: Intel® UHD Graphics 630 \
 独显: SAPPHIRE PULSE Radeon RX 580 8GB GDDR5 \
 板载网卡: Realtek R8111H 1 x Gigabit LAN Controller \
