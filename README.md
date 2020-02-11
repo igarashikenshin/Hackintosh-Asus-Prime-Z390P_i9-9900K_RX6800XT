@@ -1,0 +1,2 @@
+# Hackintosh-Asus-Prime-Z390P_i9-9900K_RX580
+支持版本: MacOS Catalina 10.15.1～10.15.4 beta1  正常工作: AirDrop Handoff FaceTime imessage 配置 Motherboard: ASUS PRIME Z390-P CPU: Intel® Core™ i7-9900K Processor iGPU: Intel® UHD Graphics 630 dGPU: SAPPHIRE PULSE Radeon RX 580 8GB GDDR5 Lan: Realtek R8111H 1 x Gigabit LAN Controller WiFi/Bluetooth: BCM943602CS Audio: Realtek® ALC 887 8-Channel High Definition Audio Storage: Samsung SSD 970 EVO Plus 500GB
