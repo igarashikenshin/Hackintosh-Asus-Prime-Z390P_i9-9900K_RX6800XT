@@ -1,7 +1,7 @@
 # Hackintosh-Asus-Prime-Z390P_i9-9900K_RX580
 
 配置 \
-主板: ASUS PRIME Z390-P \  
+主板: ASUS PRIME Z390-P \
 BIOS版本：2606\
 CPU: Intel® Core™ i7-9900K Processor \
 核显: Intel® UHD Graphics 630 \
@@ -10,7 +10,6 @@ CPU: Intel® Core™ i7-9900K Processor \
 WiFi/蓝牙: BCM943602CS \
 声卡: Realtek® ALC 887 8-Channel High Definition Audio \
 固态硬盘: Samsung SSD 970 EVO Plus 500GB \
-
 
 可适用操作系统版本：macOS Catalina 10.15.1～10.15.4 beta1\
 opencore版本：0.55\
