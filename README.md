@@ -3,6 +3,7 @@
 配置 \
 主板: ASUS PRIME Z390-P \
 BIOS版本：2606\
+更新：经测试，在BIOS版本2606下，会有偶发性卡顿问题，可降级至2603解决。\
 CPU: Intel® Core™ i9-9900K Processor \
 核显: Intel® UHD Graphics 630 \
 独显: SAPPHIRE PULSE Radeon RX 580 8GB GDDR5 \
