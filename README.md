@@ -2,7 +2,7 @@
 
 配置 \
 主板: ASUS PRIME Z390-P \
-BIOS版本：2606\
+BIOS版本：2603\
 更新：经测试，在BIOS版本2606下，会有偶发性卡顿问题，可降级至2603解决。\
 CPU: Intel® Core™ i9-9900K Processor \
 核显: Intel® UHD Graphics 630 \
@@ -12,9 +12,9 @@ WiFi/蓝牙: BCM943602CS \
 声卡: Realtek® ALC 887 8-Channel High Definition Audio \
 固态硬盘: Samsung SSD 970 EVO Plus 500GB \
  \
-可适用操作系统版本：macOS Catalina 10.15.1～10.15.4 beta2\
-opencore版本：0.55\
-clover版本：5103\
+可适用操作系统版本：macOS Catalina 10.15.1～10.15.4 beta4\
+opencore版本：0.56\
+clover版本：5103（目前仅支持到10.15.4 beta2，暂停更新一段时间。）\
 CPU变频：正常。\
 UHD630：正常。\
 RX580：正常。原生驱动。\
