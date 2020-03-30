@@ -145,11 +145,6 @@
 				<key>layout-id</key>
 				<data>AQAAAA==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AwCYPg==</data>
-			</dict>
 		</dict>
 	</dict>
 	<key>Kernel</key>
@@ -302,20 +297,7 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleTyMCEDriver</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-			</dict>
-		</array>
+		<array/>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -327,15 +309,15 @@
 		<array>
 			<dict>
 				<key>Base</key>
-				<string></string>
+				<string>__ZN8AppleRTC18setupDateTimeAlarmEPK11RTCDateTime</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Disable RTC wake scheduling</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>dTMPtw==</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleRTC</string>
 				<key>Limit</key>
@@ -345,9 +327,9 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>6zMPtw==</data>
+				<data>ww==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -475,19 +457,6 @@
 		<dict/>
 		<key>WriteFlash</key>
 		<true/>
-	</dict>
-	<key>PlatformInfo</key>
-	<dict>
-		<key>Automatic</key>
-		<true/>
-		<key>UpdateDataHub</key>
-		<true/>
-		<key>UpdateNVRAM</key>
-		<true/>
-		<key>UpdateSMBIOS</key>
-		<true/>
-		<key>UpdateSMBIOSMode</key>
-		<string>Create</string>
 	</dict>
 	<key>UEFI</key>
 	<dict>
