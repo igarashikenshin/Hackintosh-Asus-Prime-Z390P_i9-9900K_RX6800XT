@@ -13,10 +13,10 @@ WiFi/蓝牙: BCM943602CS \
 固态硬盘: Samsung SSD 970 EVO Plus 500GB \
  \
 BIOS设置 \
-高级-CPU设置 \ \Intel(VMX) Virtualization Technology -enable \
-高级-北桥  \ \ VT-D-disable，大于4G地址空间解码-enable \
-高级-北桥-显示设置  \ \ 首选显卡-Auto，初始化IGPU-Enable，DVMT Pre-Allocated-64M，RC6-disable \
-高级-USB Configuration  \ \XHCI Hand-off -enable \
+高级-CPU设置    Intel(VMX) Virtualization Technology -enable \
+高级-北桥     VT-D-disable，大于4G地址空间解码-enable \
+高级-北桥-显示设置     首选显卡-Auto，初始化IGPU-Enable，DVMT Pre-Allocated-64M，RC6-disable \
+高级-USB Configuration    XHCI Hand-off -enable \
  \
 启动-启动设置 快速启动-disable，若出现错误等待按下F1键-disable，设置模式-高级模式 \
  \
