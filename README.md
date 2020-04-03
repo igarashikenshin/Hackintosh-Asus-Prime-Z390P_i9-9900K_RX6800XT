@@ -1,5 +1,7 @@
 # Hackintosh-Asus-Prime-Z390P_i9-9900K_RX580
 
+交流QQ群：1071120659 \
+
 配置 \
 主板: ASUS PRIME Z390-P \
 BIOS版本：2603 \
