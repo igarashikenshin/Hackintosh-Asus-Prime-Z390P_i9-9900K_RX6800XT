@@ -37,7 +37,8 @@ iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、
 AirDrop & HandOff & Continuity：正常。\
  \
 Tips：\
-1.机型设定为iMAC19.1。\
+ \
+1.机型需设定为iMAC19.1。\
  \
 2.该config默认为无verbose模式。\
 如需启用verbose模式，config.plist需要修改以下几项：\
