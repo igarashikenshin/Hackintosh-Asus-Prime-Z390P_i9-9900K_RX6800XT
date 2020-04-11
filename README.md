@@ -36,7 +36,7 @@ USB：正常。\
 iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。\
 AirDrop & HandOff & Continuity：正常。\
  \
-Tips：
+Tips：\
 1.机型设定为iMAC19.1。\
  \
 2.该config默认为无verbose模式。\
