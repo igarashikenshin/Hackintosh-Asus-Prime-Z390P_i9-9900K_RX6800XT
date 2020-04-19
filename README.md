@@ -17,8 +17,9 @@ WiFi/蓝牙: BCM943602CS \
 BIOS设置 \
 高级-CPU设置--Intel(VMX) Virtualization Technology -enable \
 高级-北桥--VT-D-disable，大于4G地址空间解码-enable \
-高级-北桥-显示设置--首选显卡-Auto，初始化IGPU-Enable，DVMT Pre-Allocated-256M，RC6-enable \
+高级-北桥-显示设置--首选显卡-Auto，初始化IGPU-Enable，DVMT Pre-Allocated-128M，RC6-enable \
 高级-USB Configuration--XHCI Hand-off -enable \
+高级-内置设备-Serial Port Configuration-Serial Port -off \
  \
 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable，设置模式-高级模式 \
  \
@@ -54,4 +55,6 @@ NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v，开启啰�
 4.该config默认为不显示OC Picker菜单。\
 如需开启菜单显示，设置如下：\
 Misc-Boot-ShowPicker 值为ture（plist编辑器中为YES）。\
+
+5.RX580可通过刷写VBIOS增加运行流畅度，可参见https://github.com/igarashikenshin/AMD-RX-Series-VBIOS-macOS \
 
