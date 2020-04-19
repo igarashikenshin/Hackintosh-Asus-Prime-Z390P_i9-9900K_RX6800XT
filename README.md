@@ -54,7 +54,7 @@ NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v，开启啰�
  \
 4.该config默认为不显示OC Picker菜单。\
 如需开启菜单显示，设置如下：\
-Misc-Boot-ShowPicker 值为ture（plist编辑器中为YES）。\
+Misc-Boot-ShowPicker 值为ture（plist编辑器中为YES）。
 
-5.RX580可通过刷写VBIOS增加运行流畅度，可参见https://github.com/igarashikenshin/AMD-RX-Series-VBIOS-macOS \
+5.RX580可通过刷写VBIOS增加运行流畅度，可参见https://github.com/igarashikenshin/AMD-RX-Series-VBIOS-macOS
 
