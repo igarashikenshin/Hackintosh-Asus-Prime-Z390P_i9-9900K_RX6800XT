@@ -45,7 +45,7 @@ Tips：\
 如需启用verbose模式，config.plist需要修改以下几项：\
 Misc-Debug-DisplayLevel，值为2147483714 指在屏幕上显示所有 Debug 信息。\
 Misc-Debug-Target，值为3，指允许屏幕输出日志。\
-Misc-Debug-DisableWatchDog，值为ture（plist编辑器中为YES），指排除干扰显示。\
+Misc-Debug-DisableWatchDog，值为true（plist编辑器中为YES），指排除干扰显示。\
 NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v，开启啰嗦模式。\
  \
 3.该config启动盘策略为仅搜索APFS及HFS分区。\
@@ -54,7 +54,7 @@ NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v，开启啰�
  \
 4.该config默认为不显示OC Picker菜单。\
 如需开启菜单显示，设置如下：\
-Misc-Boot-ShowPicker 值为ture（plist编辑器中为YES）。
+Misc-Boot-ShowPicker 值为true（plist编辑器中为YES）。
 
 5.RX580可通过刷写VBIOS增加运行流畅度，可参见https://github.com/igarashikenshin/AMD-RX-Series-VBIOS-macOS
 
