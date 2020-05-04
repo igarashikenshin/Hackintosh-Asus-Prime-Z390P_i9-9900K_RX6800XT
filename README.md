@@ -23,9 +23,9 @@ BIOS设置 \
  \
 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable，设置模式-高级模式 \
  \
-可适用操作系统版本：macOS Catalina 10.15.1～10.15.5 Beta1 \
-OpenCore版本：0.56\
-Clover版本：5103（目前仅支持到10.15.4 beta2，暂停更新一段时间。）\
+可适用操作系统版本：macOS Catalina 10.15.1～10.15.5 Beta3 \
+OpenCore版本：0.5.8\
+Clover版本：不再提供Clover版本\
 CPU变频：正常。\
 UHD630：正常。\
 RX580：正常。原生驱动。\
