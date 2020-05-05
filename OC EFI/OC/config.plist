@@ -16,11 +16,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>no-EC</string>
+				<string>EC</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-no-EC.aml</string>
+				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
