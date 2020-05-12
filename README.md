@@ -1,4 +1,4 @@
-# Hackintosh-Asus-Prime-Z390P_i9-9900K_RX580
+# Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT
 
 交流QQ群：1071120659
 
@@ -8,7 +8,7 @@ BIOS版本：2603 \
 更新：经测试，在BIOS版本2606下，会有偶发性卡顿问题，可降级至2603解决。\
 CPU: Intel® Core™ i9-9900K Processor \
 核显: Intel® UHD Graphics 630 \
-独显: SAPPHIRE PULSE Radeon RX 580 8GB GDDR5 \
+独显: Gigabyte RX5700XT 8GB GDDR6 Gaming OC \
 板载网卡: Realtek® RTL8111H Gigabit LAN Controller  \
 WiFi/蓝牙: BCM943602CS \
 声卡: Realtek® ALC 887 8-Channel High Definition Audio \
@@ -28,7 +28,7 @@ OpenCore版本：0.5.8\
 Clover版本：不再提供Clover版本\
 CPU变频：正常。\
 UHD630：正常。\
-RX580：正常。原生驱动。\
+RX5700XT：正常。原生驱动。\
 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。\
 USB：正常。\
 有线网卡：正常。使用了RealtekRTL8111.kext\
