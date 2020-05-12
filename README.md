@@ -1,6 +1,9 @@
 # Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT
 
 交流QQ群：1071120659
+因本人显卡更换为RX5700XT \
+故从该版本后更新的版本测试项目不再包含RX580 \
+RX580用户扔可以继续使用该EFI，但在使用前需要将“DeviceProperties-Add-PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)”删除。 \
 
 配置 \
 主板: ASUS PRIME Z390-P \
@@ -39,7 +42,7 @@ AirDrop & HandOff & Continuity：正常。\
  \
 Tips：\
  \
-1.机型需设定为iMAC19.1。\
+1.机型需设定为iMAC19.1（现已预置，安装完成后请自行修改）。\
  \
 2.该config默认为无verbose模式。\
 如需启用verbose模式，config.plist需要修改以下几项：\
