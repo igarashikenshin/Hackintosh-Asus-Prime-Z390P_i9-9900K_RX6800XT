@@ -19,7 +19,6 @@ WiFi/蓝牙: BCM943602CS \
  \
 BIOS设置 \
 高级-CPU设置--Intel(VMX) Virtualization Technology -enable \
-高级-北桥--VT-D-disable，大于4G地址空间解码-enable \
 高级-北桥-显示设置--首选显卡-Auto，初始化IGPU-enable，DVMT Pre-Allocated-128M，RC6-enable \
 高级-USB Configuration--XHCI Hand-off -enable \
 高级-内置设备-Serial Port Configuration-Serial Port -off \
