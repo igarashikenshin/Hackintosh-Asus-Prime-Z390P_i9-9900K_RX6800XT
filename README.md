@@ -7,8 +7,7 @@ RX580用户仍可以继续使用该EFI，但在使用前需要将“DeviceProper
 
 配置 \
 主板: ASUS PRIME Z390-P \
-BIOS版本：2603 \
-更新：经测试，在BIOS版本2606下，会有偶发性卡顿问题，可降级至2603解决。\
+BIOS版本：2804 \
 CPU: Intel® Core™ i9-9900K Processor \
 核显: Intel® UHD Graphics 630 \
 独显: Gigabyte RX5700XT 8GB GDDR6 Gaming OC \
