@@ -60,7 +60,7 @@ Misc-Boot-ShowPicker 值为true（plist编辑器中为YES）。
 5.RX580可通过刷写VBIOS增加运行流畅度，可参见https://github.com/igarashikenshin/AMD-RX-Series-VBIOS-macOS
 
 目前已知问题：\
-1、若打开节能选项中的唤醒以供网络访问，则睡眠唤醒后网络缓慢。\
+1、若打开节能选项中的唤醒以供网络访问，则睡眠唤醒后网络缓慢。（或为网卡设备ID问题，在设备ID 0x43a0的设备上出现）\
 2、从Windows切换至macOS或重启macOS后，主显示器DP音频丢失，需要开关显示器才可找回。（或是技嘉5700XT的输出端口顺序问题？）\
 3、启动磁盘中无法设定Windows为启动磁盘（提示Bless工具无法将此磁盘设定为启动磁盘）。\
 4、启动转换助理不可用（应该是多硬盘问题，单硬盘据查该功能可正常使用）。
