@@ -105,8 +105,6 @@
 				<string>ATY,Adder</string>
 				<key>@3,name</key>
 				<string>ATY,Adder</string>
-				<key>AAPL00,DualLink</key>
-				<data>AQAAAA==</data>
 				<key>ATY,Card#</key>
 				<string>102-D32200-00</string>
 				<key>ATY,Copyright</key>
@@ -119,68 +117,6 @@
 				<string>Radeon Pro</string>
 				<key>ATY,Rom#</key>
 				<string>113-D3220E-190</string>
-				<key>CAIL_EnableLBPWSupport</key>
-				<integer>0</integer>
-				<key>CAIL_EnableMaxPlayloadSizeSync</key>
-				<integer>1</integer>
-				<key>CFG_CAA</key>
-				<integer>0</integer>
-				<key>CFG_FB_LIMIT</key>
-				<integer>0</integer>
-				<key>CFG_FORCE_MAX_DPS</key>
-				<integer>1</integer>
-				<key>CFG_GEN_FLAGS</key>
-				<integer>0</integer>
-				<key>CFG_NO_MST</key>
-				<integer>0</integer>
-				<key>CFG_NVV</key>
-				<integer>2</integer>
-				<key>CFG_PAA</key>
-				<integer>0</integer>
-				<key>CFG_PULSE_INT</key>
-				<integer>1</integer>
-				<key>CFG_TPS1S</key>
-				<integer>1</integer>
-				<key>CFG_TRANS_WSRV</key>
-				<integer>1</integer>
-				<key>CFG_UFL_CHK</key>
-				<integer>0</integer>
-				<key>CFG_UFL_STP</key>
-				<integer>0</integer>
-				<key>CFG_USE_AGDC</key>
-				<integer>1</integer>
-				<key>CFG_USE_CP2</key>
-				<integer>1</integer>
-				<key>CFG_USE_CPSTATUS</key>
-				<integer>1</integer>
-				<key>CFG_USE_DPT</key>
-				<integer>1</integer>
-				<key>CFG_USE_FBC</key>
-				<integer>0</integer>
-				<key>CFG_USE_FBWRKLP</key>
-				<integer>1</integer>
-				<key>CFG_USE_FEDS</key>
-				<integer>1</integer>
-				<key>CFG_USE_LPT</key>
-				<integer>1</integer>
-				<key>CFG_USE_PSR</key>
-				<integer>0</integer>
-				<key>CFG_USE_SCANOUT</key>
-				<integer>1</integer>
-				<key>CFG_USE_SRRB</key>
-				<integer>0</integer>
-				<key>CFG_USE_STUTTER</key>
-				<integer>1</integer>
-				<key>CFG_USE_TCON</key>
-				<integer>1</integer>
-				<key>PP_DisableDIDT</key>
-				<integer>1</integer>
-				<key>PP_DisablePowerContainment</key>
-				<integer>1</integer>
-				<key>PP_DisableVoltageIsland</key>
-				<integer>0</integer>
-				<key>PP_FuzzyFanControl</key>
-				<integer>1</integer>
 				<key>device_type</key>
 				<string>ATY,AdderParent</string>
 				<key>hda-gfx</key>
@@ -310,38 +246,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>USBPower.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -440,7 +344,7 @@
 			<key>ShowPicker</key>
 			<false/>
 			<key>TakeoffDelay</key>
-			<integer>0</integer>
+			<integer>6000</integer>
 			<key>Timeout</key>
 			<integer>5</integer>
 		</dict>
@@ -456,6 +360,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>0</integer>
+			<key>SysReport</key>
+			<false/>
 			<key>Target</key>
 			<integer>0</integer>
 		</dict>
@@ -478,7 +384,7 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>ScanPolicy</key>
-			<integer>3080963</integer>
+			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -501,7 +407,7 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>UIScale</key>
-				<data>Ag==</data>
+				<data>AQ==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -597,13 +503,13 @@
 			<key>KeySupportMode</key>
 			<string>Auto</string>
 			<key>KeySwap</key>
-			<false/>
+			<true/>
 			<key>PointerSupport</key>
 			<false/>
 			<key>PointerSupportMode</key>
 			<string>ASUS</string>
 			<key>TimerResolution</key>
-			<integer>50000</integer>
+			<integer>60000</integer>
 		</dict>
 		<key>Output</key>
 		<dict>
@@ -673,6 +579,8 @@
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
+			<key>TscSyncTimeout</key>
+			<integer>0</integer>
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
