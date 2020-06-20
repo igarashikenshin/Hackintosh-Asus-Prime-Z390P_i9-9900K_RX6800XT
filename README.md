@@ -24,8 +24,8 @@ BIOS设置 \
  \
 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable，设置模式-高级模式 \
  \
-可适用操作系统版本：macOS Catalina 10.15.1～10.15.5 Beta3 \
-OpenCore版本：0.5.8\
+可适用操作系统版本：macOS Catalina 10.15.1～10.15.6 Beta2 \
+OpenCore版本：0.5.9\
 Clover版本：不再提供Clover版本\
 CPU变频：正常。\
 UHD630：正常。\
@@ -49,9 +49,8 @@ Misc-Debug-Target，值为3，指允许屏幕输出日志。\
 Misc-Debug-DisableWatchDog，值为true（plist编辑器中为YES），指排除干扰显示。\
 NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v，开启啰嗦模式。\
  \
-3.该config启动盘策略为仅搜索APFS及HFS分区。\
-对应参数为ScanPolicy 值设置为3080963。\
-如需引导Windows或Other OS（Linux、Unix）可将值设置为0，如需指定搜索分区类型，可参考OC配置手册。\
+3.该config启动盘策略 ScanPolicy 值设置为0。可引导Windows或Other OS（Linux、Unix）\
+如需指定搜索分区类型，可参考OC配置手册。\
  \
 4.该config默认为不显示OC Picker菜单。\
 如需开启菜单显示，设置如下：\
@@ -62,6 +61,6 @@ Misc-Boot-ShowPicker 值为true（plist编辑器中为YES）。
 目前已知问题：\
 1、若打开节能选项中的唤醒以供网络访问，则睡眠唤醒后网络缓慢。（或为网卡设备ID问题，在设备ID 0x43a0的设备上出现）\
 2、从Windows切换至macOS或重启macOS后，主显示器DP音频丢失，需要开关显示器才可找回。（或是技嘉5700XT的输出端口顺序问题？）\
-3、启动磁盘中无法设定Windows为启动磁盘（提示Bless工具无法将此磁盘设定为启动磁盘）。\
-4、启动转换助理不可用（应该是多硬盘问题，单硬盘据查该功能可正常使用）。
+3、启动磁盘中无法设定Windows为启动磁盘（提示Bless工具无法将此磁盘设定为启动磁盘）。 更新-该问题已解决，可查看Windows Bootcamp.pdf\
+4、启动转换助理不可用（应该是多硬盘问题，单硬盘据查该功能可正常使用） 。更新-该问题已解决，可查看Windows Bootcamp.pdf
 
