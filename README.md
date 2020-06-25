@@ -24,8 +24,8 @@ BIOS设置 \
  \
 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable，设置模式-高级模式 \
  \
-可适用操作系统版本：macOS Catalina 10.15.1～10.15.6 Beta2 \
-OpenCore版本：0.5.9\
+可适用操作系统版本：macOS Catalina 10.15.1～11.0 Beta1 \
+OpenCore版本：0.6.0 Debug\
 Clover版本：不再提供Clover版本\
 CPU变频：正常。\
 UHD630：正常。\
@@ -43,10 +43,7 @@ Tips：\
 1.机型需设定为iMAC19.1（现已预置，安装完成后请自行修改）。\
  \
 2.该config默认为无verbose模式。\
-如需启用verbose模式，config.plist需要修改以下几项：\
-Misc-Debug-DisplayLevel，值为2147483714 指在屏幕上显示所有 Debug 信息。\
-Misc-Debug-Target，值为3，指允许屏幕输出日志。\
-Misc-Debug-DisableWatchDog，值为true（plist编辑器中为YES），指排除干扰显示。\
+如需启用verbose模式，config.plist需要修改以下一项：\
 NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v，开启啰嗦模式。\
  \
 3.该config启动盘策略 ScanPolicy 值设置为0。可引导Windows或Other OS（Linux、Unix）\
@@ -59,8 +56,8 @@ Misc-Boot-ShowPicker 值为true（plist编辑器中为YES）。
 5.RX580可通过刷写VBIOS增加运行流畅度，可参见https://github.com/igarashikenshin/AMD-RX-Series-VBIOS-macOS
 
 目前已知问题：\
-1、若打开节能选项中的唤醒以供网络访问，则睡眠唤醒后网络缓慢。（或为网卡设备ID问题，在设备ID 0x43a0的设备上出现）\
-2、从Windows切换至macOS或重启macOS后，主显示器DP音频丢失，需要开关显示器才可找回。（或是技嘉5700XT的输出端口顺序问题？）\
+1、若打开节能选项中的唤醒以供网络访问，则睡眠唤醒后网络缓慢。（或为网卡设备ID问题，在设备ID 0x43a0的设备上出现）（很高兴，在macOS 11.0 Beta1中，这个问题得到了修复）\
+2、在双显示器状态下，从Windows切换至macOS或重启macOS后，主显示器DP音频丢失，需要开关显示器才可找回。（或是技嘉5700XT的输出端口顺序问题？）\
 3、启动磁盘中无法设定Windows为启动磁盘（提示Bless工具无法将此磁盘设定为启动磁盘）。 更新-该问题已解决，可查看Windows Bootcamp.pdf\
 4、启动转换助理不可用（应该是多硬盘问题，单硬盘据查该功能可正常使用） 。更新-该问题已解决，可查看Windows Bootcamp.pdf
 
