@@ -24,7 +24,7 @@ BIOS设置 \
  \
 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable，设置模式-高级模式 \
  \
-可适用操作系统版本：macOS Catalina 10.15.1～11.0 Beta1 \
+可适用操作系统版本：macOS Catalina 10.15.1～11.0 Beta2 \
 OpenCore版本：0.6.0 Debug\
 Clover版本：不再提供Clover版本\
 CPU变频：正常。\
