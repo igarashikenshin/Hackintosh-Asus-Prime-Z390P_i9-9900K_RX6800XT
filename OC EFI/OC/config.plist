@@ -38,14 +38,6 @@
 				<key>Path</key>
 				<string>SSDT-SBUS-MCHC.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-USBX.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -131,6 +123,8 @@
 				<string>ATY,Adder</string>
 				<key>@3,name</key>
 				<string>ATY,Adder</string>
+				<key>AAPL00,DualLink</key>
+				<data>AQAAAA==</data>
 				<key>ATY,Card#</key>
 				<string>102-D32200-00</string>
 				<key>ATY,Copyright</key>
@@ -143,6 +137,70 @@
 				<string>Radeon Pro</string>
 				<key>ATY,Rom#</key>
 				<string>113-D3220E-190</string>
+				<key>CAIL_EnableLBPWSupport</key>
+				<integer>0</integer>
+				<key>CAIL_EnableMaxPlayloadSizeSync</key>
+				<integer>1</integer>
+				<key>CFG_CAA</key>
+				<integer>0</integer>
+				<key>CFG_FB_LIMIT</key>
+				<integer>0</integer>
+				<key>CFG_FORCE_MAX_DPS</key>
+				<integer>1</integer>
+				<key>CFG_GEN_FLAGS</key>
+				<integer>0</integer>
+				<key>CFG_NO_MST</key>
+				<integer>0</integer>
+				<key>CFG_NVV</key>
+				<integer>2</integer>
+				<key>CFG_PAA</key>
+				<integer>0</integer>
+				<key>CFG_PULSE_INT</key>
+				<integer>1</integer>
+				<key>CFG_TPS1S</key>
+				<integer>1</integer>
+				<key>CFG_TRANS_WSRV</key>
+				<integer>1</integer>
+				<key>CFG_UFL_CHK</key>
+				<integer>0</integer>
+				<key>CFG_UFL_STP</key>
+				<integer>0</integer>
+				<key>CFG_USE_AGDC</key>
+				<integer>1</integer>
+				<key>CFG_USE_CP2</key>
+				<integer>1</integer>
+				<key>CFG_USE_CPSTATUS</key>
+				<integer>1</integer>
+				<key>CFG_USE_DPT</key>
+				<integer>1</integer>
+				<key>CFG_USE_FBC</key>
+				<integer>0</integer>
+				<key>CFG_USE_FBWRKLP</key>
+				<integer>1</integer>
+				<key>CFG_USE_FEDS</key>
+				<integer>1</integer>
+				<key>CFG_USE_LPT</key>
+				<integer>1</integer>
+				<key>CFG_USE_PSR</key>
+				<integer>0</integer>
+				<key>CFG_USE_SCANOUT</key>
+				<integer>1</integer>
+				<key>CFG_USE_SRRB</key>
+				<integer>0</integer>
+				<key>CFG_USE_STUTTER</key>
+				<integer>1</integer>
+				<key>CFG_USE_TCON</key>
+				<integer>1</integer>
+				<key>PP_DisableDIDT</key>
+				<integer>1</integer>
+				<key>PP_DisablePowerContainment</key>
+				<integer>1</integer>
+				<key>PP_DisableVoltageIsland</key>
+				<integer>0</integer>
+				<key>PP_FuzzyFanControl</key>
+				<integer>1</integer>
+				<key>PP_PhmSoftPowerPlayTable</key>
+				<data>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</data>
 				<key>device_type</key>
 				<string>ATY,AdderParent</string>
 				<key>hda-gfx</key>
@@ -169,22 +227,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>FakeSMC.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/FakeSMC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -376,7 +418,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -455,13 +497,11 @@
 			<dict>
 				<key>UIScale</key>
 				<data>AQ==</data>
-				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>agdpmod=pikera</string>
+				<string>agdpmod=pikera vsmcgen=1</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -470,11 +510,6 @@
 		</dict>
 		<key>Delete</key>
 		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<array>
-				<string>UIScale</string>
-				<string>DefaultBackgroundColor</string>
-			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
