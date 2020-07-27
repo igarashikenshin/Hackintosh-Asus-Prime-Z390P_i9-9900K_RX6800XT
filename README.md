@@ -44,7 +44,7 @@ Tips：\
  \
 2.该config默认为无verbose模式。\
 如需启用verbose模式，config.plist需要修改以下一项：\
-NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v，开启啰嗦模式。\
+NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v。\
  \
 3.该config启动盘策略 ScanPolicy 值设置为0。可引导Windows或Other OS（Linux、Unix）\
 如需指定搜索分区类型，可参考OC配置手册。\
