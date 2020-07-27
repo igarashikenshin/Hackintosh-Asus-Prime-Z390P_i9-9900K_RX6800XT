@@ -2,7 +2,7 @@
 
 ## *交流QQ群：1071120659*
 
-[中文](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/README.md)｜[英文](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/README-EN.md)
+[中文](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/README.md)｜[English](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/README-EN.md)
 
 因本人显卡更换为RX5700XT，故从该版本后更新的版本测试项目不再包含RX580，RX580用户仍可以继续使用该EFI，但在使用前需要将“DeviceProperties-Add-PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)”删除。
 
