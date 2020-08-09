@@ -6,25 +6,26 @@ Because my graphics card is replaced by RX5700XT, the updated version test items
 
 ### Configuration
 1. Motherboard: ASUS PRIME Z390-P
-1. BIOS version: 2804
+1. BIOS version: 2808
 1. CPU: Intel® Core™ i9-9900K Processor
 1. Core display: Intel® UHD Graphics 630
 1. Exclusive display: Gigabyte RX5700XT 8GB GDDR6 Gaming OC
 1. Onboard network card: Realtek® RTL8111H Gigabit LAN Controller
-1. WiFi/Bluetooth: BCM943602CS
+1. WiFi/Bluetooth: BCM94360CD
 1. Sound Card: Realtek® ALC 887 8-Channel High Definition Audio
 1. Solid State Drive: Samsung SSD 970 EVO Plus 500GB
 
 ### BIOS settings
 1. Advanced-CPU settings-Intel(VMX) Virtualization Technology -enable
-1. Advanced-North Bridge-Display Settings-preferred graphics card-Auto, initialize IGPU-enable, DVMT Pre-Allocated-128M, RC6-enable
+1. Advanced-North Bridge-Display Settings-preferred graphics card-Auto, initialize IGPU-enable, DVMT Pre-Allocated-128M, RC6-auto
 1. Advanced-USB Configuration--XHCI Hand-off -enable
 1. Advanced-Built-in Device-Serial Port Configuration-Serial Port -off
-1. Start-start settings-quick start-disable, if there is an error, wait for the F1 key-disable, setting mode-advanced mode
+1. Start-start settings-quick start-disable, if there is an error, wait for the F1 key-disable
+1. Setting mode-advanced mode
 
-**Applicable operating system version: macOS Catalina 10.15.1～11.0 Beta3**
+**Applicable operating system version: macOS Catalina 10.15.1～11.0 Beta4**
 
-1. OpenCore version: 0.6.0 Debug
+1. OpenCore version: 0.6.0
 1. Clover version: Clover version is no longer available
 1. CPU frequency conversion: Working.
 1. UHD630: Working.
