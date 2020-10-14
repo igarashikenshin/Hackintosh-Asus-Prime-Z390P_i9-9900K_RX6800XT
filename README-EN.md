@@ -23,7 +23,7 @@ Because my graphics card is replaced by RX5700XT, the updated version test items
 1. Start-start settings-quick start-disable, if there is an error, wait for the F1 key-disable
 1. Setting mode-advanced mode
 
-**Applicable operating system version: macOS Catalina 10.15.1～11.0 Beta7**
+**Applicable operating system version: macOS Catalina 10.15.1～11.0 Beta10**
 
 1. OpenCore version: 0.6.2
 1. Clover version: Clover version is no longer available
