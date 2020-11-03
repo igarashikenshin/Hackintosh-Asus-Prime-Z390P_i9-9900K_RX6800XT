@@ -32,15 +32,18 @@ Because my graphics card is replaced by RX5700XT, the updated version test items
 1. CPU frequency conversion: Working.
 1. UHD630: Working.
 1. RX5700XT: Working, native driver.
+
 ![Graphics Card](https://i.imgur.com/9MrmeoC.png)
 1. 3.5mm sound & HDMI: both are used Working, using AppleALC driver.
 1. USB: Working.
 1. Wired network card: Working, RealtekRTL8111.kext is used.
 1. Wake up from sleep: Working.
+
 ![Power Saver](https://i.imgur.com/wZ7IZjm.png)
 1. Turn off and turn on: Working.
 1. iCloud & App Store & iMessage & FaceTime: Please generate the Board Serial Number, serial number, and SmUUID by yourself, and modify the "Custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
 1. AirDrop & HandOff & Continuity: Working.
+
 ![Wi-Fi en0](https://i.imgur.com/daoSzyJ.png)
 ![BlueTooth](https://i.imgur.com/Cgr8AJv.png)
 ![Apple Watch](https://i.imgur.com/iYimFue.png)

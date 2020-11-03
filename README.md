@@ -34,15 +34,18 @@
 1. CPU变频：正常。
 1. UHD630：正常。
 1. RX5700XT：正常，原生驱动。
+
 ![Graphics Card](https://i.imgur.com/9MrmeoC.png)
 1. 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。
 1. USB：正常。
 1. 有线网卡：正常，使用了RealtekRTL8111.kext。
 1. 睡眠唤醒：正常。
+
 ![Power Saver](https://i.imgur.com/wZ7IZjm.png)
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
 1. AirDrop & HandOff & Continuity：正常。
+
 ![Wi-Fi en0](https://i.imgur.com/daoSzyJ.png)
 ![BlueTooth](https://i.imgur.com/Cgr8AJv.png)
 ![Apple Watch](https://i.imgur.com/iYimFue.png)
