@@ -4,6 +4,9 @@
 
 [中文](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/README.md)｜[English](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/README-EN.md)
 
+![1](https://imgur.com/4mjqmdM)
+
+
 因本人显卡更换为RX5700XT，故从该版本后更新的版本测试项目不再包含RX580，RX580用户仍可以继续使用该EFI，但在使用前需要将“DeviceProperties-Add-PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)”删除。
 
 ### 配置
@@ -56,3 +59,4 @@
 1. 启动磁盘中无法设定Windows为启动磁盘（提示Bless工具无法将此磁盘设定为启动磁盘）。 更新-该问题已解决，可查看[Windows Bootcamp.pdf](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/Boot%20Camp%E6%95%99%E7%A8%8B/Windows%20Bootcamp.pdf)
 1. 启动转换助理不可用（应该是多硬盘问题，单硬盘据查该功能可正常使用） 。更新-该问题已解决，可查看[Windows Bootcamp.pdf](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/Boot%20Camp%E6%95%99%E7%A8%8B/Windows%20Bootcamp.pdf)
 
+[base64str]:data:image/png;base64,
