@@ -4,10 +4,9 @@
 
 [中文](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/README.md)｜[English](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/README-EN.md)
 
-![1](https://imgur.com/4mjqmdM)
-
-
 因本人显卡更换为RX5700XT，故从该版本后更新的版本测试项目不再包含RX580，RX580用户仍可以继续使用该EFI，但在使用前需要将“DeviceProperties-Add-PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)”删除。
+
+![System Info](https://i.imgur.com/4mjqmdM.png)
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P
@@ -28,21 +27,25 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-**可适用操作系统版本：macOS Catalina 10.15.1～11.0 Beta10**
+**可适用操作系统版本：macOS Catalina 10.15.1～11.0.1 Beta1**
 
-1. OpenCore版本：0.6.2
+1. OpenCore版本：0.6.3
 1. Clover版本：不再提供Clover版本
 1. CPU变频：正常。
 1. UHD630：正常。
 1. RX5700XT：正常，原生驱动。
+![Graphics Card](https://i.imgur.com/9MrmeoC.png)
 1. 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。
 1. USB：正常。
 1. 有线网卡：正常，使用了RealtekRTL8111.kext。
 1. 睡眠唤醒：正常。
+![Power Saver](https://i.imgur.com/wZ7IZjm.png)
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
 1. AirDrop & HandOff & Continuity：正常。
-
+![Wi-Fi en0](https://i.imgur.com/daoSzyJ.png)
+![BlueTooth](https://i.imgur.com/Cgr8AJv.png)
+![Apple Watch](https://i.imgur.com/iYimFue.png)
 
 ### Tips：
 
@@ -59,4 +62,5 @@
 1. 启动磁盘中无法设定Windows为启动磁盘（提示Bless工具无法将此磁盘设定为启动磁盘）。 更新-该问题已解决，可查看[Windows Bootcamp.pdf](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/Boot%20Camp%E6%95%99%E7%A8%8B/Windows%20Bootcamp.pdf)
 1. 启动转换助理不可用（应该是多硬盘问题，单硬盘据查该功能可正常使用） 。更新-该问题已解决，可查看[Windows Bootcamp.pdf](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/Boot%20Camp%E6%95%99%E7%A8%8B/Windows%20Bootcamp.pdf)
 
-[base64str]:data:image/png;base64,
+![Boot Camp](https://i.imgur.com/O9nsdYV.png)
+
