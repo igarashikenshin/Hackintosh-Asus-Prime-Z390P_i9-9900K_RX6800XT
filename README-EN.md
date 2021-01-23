@@ -4,7 +4,7 @@
 
 Because my graphics card is replaced by RX5700XT, the updated version test items after this version no longer include RX580. RX580 users can still continue to use the EFI, but before using it, you need to drop "DeviceProperties-Add-PciRoot(0x0)/Pci(0x1) ,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)" delete.
 
-![System Info](https://i.imgur.com/4mjqmdM.png)
+![System Info](https://i.loli.net/2021/01/23/i5VjRtA2yJnLghk.png)
 
 ### Configuration
 1. Motherboard: ASUS PRIME Z390-P
@@ -63,4 +63,4 @@ Because my graphics card is replaced by RX5700XT, the updated version test items
 1. Windows cannot be set as the startup disk in the startup disk (it prompts that the Bless tool cannot set this disk as the startup disk). Update-the problem has been resolved,you can view [Windows Bootcamp.pdf](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/Boot%20Camp%E6%95%99%E7%A8%8B/Windows%20Bootcamp.pdf)
 1. The boot conversion assistant is unavailable (it should be a problem with multiple hard drives, the function can be used normally according to the single hard drive). Update-This issue has been resolved, you can view [Windows Bootcamp.pdf](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/Boot%20Camp%E6%95%99%E7%A8%8B/Windows%20Bootcamp.pdf)
 
-![Boot Camp](https://i.imgur.com/O9nsdYV.png)
+![Boot Camp](https://i.loli.net/2021/01/23/Ew1NepZ6kStuoh2.png)
