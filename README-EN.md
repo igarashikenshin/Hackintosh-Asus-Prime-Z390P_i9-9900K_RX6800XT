@@ -4,7 +4,7 @@
 
 Because my graphics card is replaced by RX5700XT, the updated version test items after this version no longer include RX580. RX580 users can still continue to use the EFI, but before using it, you need to drop "DeviceProperties-Add-PciRoot(0x0)/Pci(0x1) ,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)" delete.
 
-![System Info](https://i.loli.net/2021/01/23/i5VjRtA2yJnLghk.png)
+![System Info](https://i.loli.net/2021/02/17/zMhEk3DxdnbOaU1.png)
 
 ### Configuration
 1. Motherboard: ASUS PRIME Z390-P
@@ -25,9 +25,9 @@ Because my graphics card is replaced by RX5700XT, the updated version test items
 1. Start-start settings-quick start-disable, if there is an error, wait for the F1 key-disable
 1. Setting mode-advanced mode
 
-**Applicable operating system version: macOS Catalina 10.15.1～11.2 RC**
+**Applicable operating system version: macOS Catalina 10.15.1～11.3 beta1**
 
-1. OpenCore version: 0.6.6 (01-22)
+1. OpenCore version: 0.6.7 (02-16)
 1. Clover version: Clover version is no longer available
 1. CPU frequency conversion: Working.
 1. UHD630: Working.

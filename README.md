@@ -6,7 +6,7 @@
 
 因本人显卡更换为RX5700XT，故从该版本后更新的版本测试项目不再包含RX580，RX580用户仍可以继续使用该EFI，但在使用前需要将“DeviceProperties-Add-PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)”删除。
 
-![System Info](https://i.loli.net/2021/01/23/i5VjRtA2yJnLghk.png)
+![System Info](https://i.loli.net/2021/02/17/zMhEk3DxdnbOaU1.png)
 
 
 ### 配置
@@ -28,9 +28,9 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-**可适用操作系统版本：macOS Catalina 10.15.1～11.2 RC**
+**可适用操作系统版本：macOS Catalina 10.15.1～11.3 beta1**
 
-1. OpenCore版本：0.6.6 (01-22)
+1. OpenCore版本：0.6.7 (02-16)
 1. Clover版本：不再提供Clover版本
 1. CPU变频：正常。
 1. UHD630：正常。
