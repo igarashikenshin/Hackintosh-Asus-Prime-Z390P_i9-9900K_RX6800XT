@@ -13,7 +13,7 @@ Because my graphics card is replaced by RX5700XT, the updated version test items
 1. Core display: Intel® UHD Graphics 630
 1. Exclusive display: Gigabyte RX5700XT 8GB GDDR6 Gaming OC
 1. Onboard network card: Realtek® RTL8111H Gigabit LAN Controller
-1. WiFi/Bluetooth: BCM94360CD
+1. WiFi/Bluetooth: BCM943602CS（BT4.2）
 1. Sound Card: Realtek® ALC 887 8-Channel High Definition Audio
 1. Solid State Drive: Samsung SSD 970 EVO Plus 500GB
 

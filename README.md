@@ -16,7 +16,7 @@
 1. 核显: Intel® UHD Graphics 630
 1. 独显: Gigabyte RX5700XT 8GB GDDR6 Gaming OC
 1. 板载网卡: Realtek® RTL8111H Gigabit LAN Controller
-1. WiFi/蓝牙: BCM94360CD
+1. WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 声卡: Realtek® ALC 887 8-Channel High Definition Audio
 1. 固态硬盘: Samsung SSD 970 EVO Plus 500GB
 
