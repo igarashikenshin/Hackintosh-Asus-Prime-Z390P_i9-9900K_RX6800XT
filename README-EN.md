@@ -2,8 +2,6 @@
 
 [中文](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/README.md)｜[English](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX5700XT/blob/master/README-EN.md)
 
-Because my graphics card is replaced by RX5700XT, the updated version test items after this version no longer include RX580. RX580 users can still continue to use the EFI, but before using it, you need to drop "DeviceProperties-Add-PciRoot(0x0)/Pci(0x1) ,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)" delete.
-
 ![System Info](https://i.loli.net/2021/02/17/zMhEk3DxdnbOaU1.png)
 
 ### Configuration
