@@ -2,7 +2,7 @@
 
 [中文](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT/blob/master/README.md)｜[English](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT/blob/master/README-EN.md)
 
-![System Info](https://i.loli.net/2021/06/21/M8zOZxj73g6veUQ.png)
+![System Info](https://i.loli.net/2021/09/08/s7IUJ1hY89FwdRK.png)
 
 ### Configuration
 1. Motherboard: ASUS PRIME Z390-P
@@ -30,19 +30,19 @@
 1. UHD630: Working.
 1. RX6800XT: Working, native driver.
 
-![Graphics Card](https://i.loli.net/2021/06/21/lIQBNGPqFkOnS2r.png)
+![Graphics Card](https://i.loli.net/2021/09/08/GmSjXaeUOdcDPsF.png)
 1. 3.5mm sound & HDMI: both are used Working, using AppleALC driver.
 1. USB: Working.
 1. Wired network card: Working, RealtekRTL8111.kext is used.
 1. Wake up from sleep: Working.
 
-![Power Saver](https://i.loli.net/2021/06/21/5pDihExCv6RKuOT.png)
+![Power Saver](https://i.loli.net/2021/09/08/ThjHpRQDtgCZ3Yb.png)
 1. Turn off and turn on: Working.
 1. iCloud & App Store & iMessage & FaceTime: Please generate the Board Serial Number, serial number, and SmUUID by yourself, and modify the "Custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
 1. AirDrop & HandOff & Continuity: Working.
 
-![Wi-Fi en0](https://i.loli.net/2021/06/21/xztJkjeqPKfsld5.png)
-![BlueTooth](https://i.loli.net/2021/06/21/JO4xCWeZ9fiXFkT.png)
+![Wi-Fi en0](https://i.loli.net/2021/09/08/JbzW5r9eIqy4Ssx.png)
+![BlueTooth](https://i.loli.net/2021/09/08/V7zPGTcYdxELrHU.png)
 ![Apple Watch](https://i.loli.net/2021/06/21/PyXDu8fIoRG1rZH.png)
 
 ### Tips:
