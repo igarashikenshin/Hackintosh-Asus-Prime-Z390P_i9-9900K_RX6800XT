@@ -6,7 +6,7 @@
 
 ### Configuration
 1. Motherboard: ASUS PRIME Z390-P
-1. BIOS version: 3002
+1. BIOS version: 3004
 1. CPU: Intel® Core™ i9-9900K Processor
 1. Core display: Intel® UHD Graphics 630
 1. Exclusive display: Yeston Radeon RX 6800 XT SAKURA Edition
@@ -23,9 +23,9 @@
 1. Start-start settings-quick start-disable, if there is an error, wait for the F1 key-disable
 1. Setting mode-advanced mode
 
-**Applicable operating system version: macOS Catalina 10.15.1～macOS Monterey 12.0 beta5**
+**Applicable operating system version: macOS Catalina 10.15.1～macOS Monterey 12.0 beta6**
 
-1. OpenCore version: 0.7.3 (08-18)
+1. OpenCore version: 0.7.4 (09-08)
 1. CPU frequency conversion: Working.
 1. UHD630: Working.
 1. RX6800XT: Working, native driver.

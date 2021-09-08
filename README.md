@@ -9,7 +9,7 @@
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P
-1. BIOS版本：3002
+1. BIOS版本：3004
 1. CPU: Intel® Core™ i9-9900K Processor
 1. 核显: Intel® UHD Graphics 630
 1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
@@ -26,9 +26,9 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-**可适用操作系统版本：macOS Catalina 10.15.1～macOS Monterey 12.0 beta5**
+**可适用操作系统版本：macOS Catalina 10.15.1～macOS Monterey 12.0 beta6**
 
-1. OpenCore版本：0.7.3 (08-18)
+1. OpenCore版本：0.7.4 (09-08)
 1. CPU变频：正常。
 1. UHD630：正常。
 1. RX6800XT：正常，原生驱动。
