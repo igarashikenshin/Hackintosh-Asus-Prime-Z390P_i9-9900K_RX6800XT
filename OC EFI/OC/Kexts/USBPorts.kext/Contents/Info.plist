@@ -52,6 +52,28 @@
 				</data>
 				<key>ports</key>
 				<dict>
+					<key>HS01</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS01</string>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+					</dict>
+					<key>HS02</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS02</string>
+						<key>port</key>
+						<data>
+						AgAAAA==
+						</data>
+					</dict>
 					<key>HS03</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -88,7 +110,7 @@
 					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS06</string>
 						<key>port</key>
@@ -118,6 +140,39 @@
 						CAAAAA==
 						</data>
 					</dict>
+					<key>HS09</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS09</string>
+						<key>port</key>
+						<data>
+						CQAAAA==
+						</data>
+					</dict>
+					<key>HS10</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS10</string>
+						<key>port</key>
+						<data>
+						CgAAAA==
+						</data>
+					</dict>
+					<key>HS11</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS11</string>
+						<key>port</key>
+						<data>
+						CwAAAA==
+						</data>
+					</dict>
 					<key>HS12</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -127,6 +182,17 @@
 						<key>port</key>
 						<data>
 						DAAAAA==
+						</data>
+					</dict>
+					<key>HS13</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS13</string>
+						<key>port</key>
+						<data>
+						DQAAAA==
 						</data>
 					</dict>
 					<key>SS01</key>
