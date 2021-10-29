@@ -23,9 +23,9 @@
 1. Start-start settings-quick start-disable, if there is an error, wait for the F1 key-disable
 1. Setting mode-advanced mode
 
-**Applicable operating system version: macOS Catalina 10.15.1～macOS Monterey 12.0 beta6**
+**Applicable operating system version: macOS Catalina 10.15.1～macOS Monterey 12.1 beta1**
 
-1. OpenCore version: 0.7.4 (09-08)
+1. OpenCore version: 0.7.5 (10-28)
 1. CPU frequency conversion: Working.
 1. UHD630: Working.
 1. RX6800XT: Working, native driver.

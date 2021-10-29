@@ -26,9 +26,9 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-**可适用操作系统版本：macOS Catalina 10.15.1～macOS Monterey 12.0 beta6**
+**可适用操作系统版本：macOS Catalina 10.15.1～macOS Monterey 12.1 beta1**
 
-1. OpenCore版本：0.7.4 (09-08)
+1. OpenCore版本：0.7.5 (10-28)
 1. CPU变频：正常。
 1. UHD630：正常。
 1. RX6800XT：正常，原生驱动。
