@@ -92,7 +92,7 @@
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
 			<key>ResizeAppleGpuBars</key>
-			<integer>-1</integer>
+			<integer>8</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -745,7 +745,7 @@
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>ResizeGpuBars</key>
-			<integer>-1</integer>
+			<integer>14</integer>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
