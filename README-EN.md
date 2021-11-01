@@ -51,6 +51,7 @@
 1. The config defaults to no verbose mode. To enable verbose mode, config.plist needs to modify the following one: NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args, add -v.
 1. The ScanPolicy value of the config boot disk policy is set to 0. Bootable Windows or Other OS (Linux, Unix) If you need to specify the search partition type, please refer to the OC configuration manual.
 1. The config defaults to not display the OC Picker menu. To turn on the menu display, set as follows: Misc-Boot-ShowPicker is true (YES in the plist editor).
+1. usbport.kext is remapping for me according to the motherboard wiring. If you have a USB-related error, you can remapping the usbport yourself, or cancel the loading of the kext, and set the XhciPortLimit value to true.
 
 
 ### Currently known issues:
