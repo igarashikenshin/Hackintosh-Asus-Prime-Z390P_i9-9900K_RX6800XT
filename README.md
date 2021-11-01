@@ -54,6 +54,7 @@
 1. 该config默认为无verbose模式。如需启用verbose模式，config.plist需要修改以下一项：NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v。
 1. 该config启动盘策略 ScanPolicy 值设置为0。可引导Windows或Other OS（Linux、Unix）如需指定搜索分区类型，可参考OC配置手册。
 1. 该config默认为不显示OC Picker菜单。如需开启菜单显示，设置如下：Misc-Boot-ShowPicker 值为true（plist编辑器中为YES）。
+1. usbport.kext 为我根据主板接线定制，若你出现usb相关错误，可自行定制usbport，或取消加载该kext，将XhciPortLimit值变更为true。
 
 
 ### 目前已知问题：
