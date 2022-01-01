@@ -4,19 +4,19 @@
 
 [中文](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT/blob/master/README.md)｜[English](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT/blob/master/README-EN.md)
 
-![System Info](https://i.loli.net/2021/09/08/s7IUJ1hY89FwdRK.png)
+![System Info](https://s2.loli.net/2022/01/01/V1ynoXAuEJL4kj6.png)
 
 
 ### 配置
 1. 主板: ASUS PRIME Z390-P
-1. BIOS版本：3004
+1. BIOS版本：3006
 1. CPU: Intel® Core™ i9-9900K Processor
 1. 核显: Intel® UHD Graphics 630
 1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
 1. 板载网卡: Realtek® RTL8111H Gigabit LAN Controller
 1. WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 声卡: Realtek® ALC 887 8-Channel High Definition Audio
-1. 固态硬盘: Samsung SSD 970 EVO Plus 500GB
+1. 固态硬盘: Western Digital SSD SN850 1TB
 
 ### BIOS设置
 1. 高级-CPU设置--Intel(VMX) Virtualization Technology -enable
@@ -26,26 +26,26 @@
 1. 启动-启动设置--快速启动-disable，若出现错误等待按下F1键-disable
 1. 设置模式-高级模式
 
-**可适用操作系统版本：macOS Catalina 10.15.1～macOS Monterey 12.1 beta1**
+**可适用操作系统版本：macOS Catalina 10.15.1～macOS Monterey 12.2 beta1**
 
-1. OpenCore版本：0.7.5 (10-28)
+1. OpenCore版本：0.7.7 (01-01)
 1. CPU变频：正常。
 1. UHD630：正常。
 1. RX6800XT：正常，原生驱动。
 
-![Graphics Card](https://i.loli.net/2021/09/08/GmSjXaeUOdcDPsF.png)
+![Graphics Card](https://s2.loli.net/2022/01/01/YWtlHbwON6keRxX.png)
 1. 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。
 1. USB：正常。
 1. 有线网卡：正常，使用了RealtekRTL8111.kext。
 1. 睡眠唤醒：正常。
 
-![Power Saver](https://i.loli.net/2021/09/08/ThjHpRQDtgCZ3Yb.png)
+![Power Saver](https://s2.loli.net/2022/01/01/TSiQrvcoF8I5DLd.png)
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
 1. AirDrop & HandOff & Continuity：正常。
 
-![Wi-Fi en0](https://i.loli.net/2021/09/08/JbzW5r9eIqy4Ssx.png)
-![BlueTooth](https://i.loli.net/2021/09/08/V7zPGTcYdxELrHU.png)
+![Wi-Fi en1](https://s2.loli.net/2022/01/01/5YGFDeV7mvToaZc.png)
+![BlueTooth](https://s2.loli.net/2022/01/01/rmhlC4GySHXoAIf.png)
 ![Apple Watch](https://i.loli.net/2021/06/21/PyXDu8fIoRG1rZH.png)
 
 ### Tips：
@@ -62,5 +62,5 @@
 1. 启动磁盘中无法设定Windows为启动磁盘（提示Bless工具无法将此磁盘设定为启动磁盘）。 更新-该问题已解决，可查看[Windows Bootcamp.pdf](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT/blob/master/Boot%20Camp%E6%95%99%E7%A8%8B/Windows%20Bootcamp.pdf)
 1. 启动转换助理不可用（应该是多硬盘问题，单硬盘据查该功能可正常使用） 。更新-该问题已解决，可查看[Windows Bootcamp.pdf](https://github.com/igarashikenshin/Hackintosh-Asus-Prime-Z390P_i9-9900K_RX6800XT/blob/master/Boot%20Camp%E6%95%99%E7%A8%8B/Windows%20Bootcamp.pdf)
 
-![Boot Camp](https://i.loli.net/2021/06/21/QAnlE1MFt6x49gi.png)
+![Boot Camp](https://s2.loli.net/2022/01/01/98O3UamlznLeV7x.png)
 
